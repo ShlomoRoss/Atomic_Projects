@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import os
 import platform
+import time
 
 #Create a function to shutdown machine
 def shutdown():
@@ -25,9 +26,13 @@ command = input("Use \'r\' for restart and \'s\' for shutdown: ")
 
 #call function for restart
 if command == "r":
+    print("Restarting machine...")
+    time.sleep(3)
     restart()
 #call function for shutdown    
 if command == "s":
+    print("Shutting down...")
+    time.sleep(3)
     shutdown()
 #Give error for invalid input
 else:
