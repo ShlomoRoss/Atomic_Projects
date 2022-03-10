@@ -2,6 +2,7 @@
 import os
 import platform
 
+#Create a function to shutdown machine
 def shutdown():
     if platform.system() == "Windows":
         os.system('shutdown -s')
@@ -10,6 +11,7 @@ def shutdown():
     else:
         print('ERROR: OS not supported!')
 
+#Create a function to restart machine
 def restart():
     if platform.system() == "Windows":
         os.system('shutdown -t 0 -r -f')
@@ -18,11 +20,15 @@ def restart():
     else:
         print('ERROR: OS not supported!')
 
+#define command
 command = input("Use \'r\' for restart and \'s\' for shutdown: ")
 
+#call function for restart
 if command == "r":
     restart()
+#call function for shutdown    
 if command == "s":
     shutdown()
+#Give error for invalid input
 else:
-    print("ERROR: Wrong Letter")
+    print("ERROR: Invalid input")
