@@ -1,6 +1,6 @@
-# 100 projects in 100 days
+# 100 Days of Projects
 
-**Day 1 - Shutdown or Restart**
+**Day 1 (March 10, 2022) - Shutdown or Restart**
  * When executed, this script will ask you to give an input to either shutdown or restart your machine
   
   
