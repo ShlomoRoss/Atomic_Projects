@@ -97,9 +97,13 @@ def History():
 	else:
 		print("You should root for the Houston Astros")
 
-Start = input("Would you like to begin? Type yes to begin: ")
+def start():
+	Start = input("Would you like to begin? Type yes to begin: ")
 
-if Start.upper() == "YES":
-	Color()
-else:
-	print("Okay, come back when you're ready. Have a great day!")
+	if Start.upper() == "YES":
+		Color()
+	else:
+		print("Okay, come back when you're ready. Have a great day!")
+		start()
+
+#start()

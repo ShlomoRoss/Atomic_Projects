@@ -1,4 +1,5 @@
 #!/usr/bin/python
+import time
 
 print('Welcome to the tip calculator! \n')
 
@@ -26,3 +27,4 @@ print("Your tip is $"+ str(gratuity))
 print("Your total bill is $"+ str(total))
 print("Each person owes $" + str(split) +'\n')
 print("Thank you for using the tip calculator. Enjoy the rest of your day!")
+time.sleep(10)
