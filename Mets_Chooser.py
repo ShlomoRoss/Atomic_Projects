@@ -66,7 +66,7 @@ def Time():
 		Mascot()
 	elif time_zone.upper() == "MST":
 		print('\n')
-		print("Games would start at 5:10 PM CST, which is right when you end work. There's no better way to relax. You should root for the New York Mets")
+		print("Games would start at 5:10 PM MST, which is right when you end work. There's no better way to relax. You should root for the New York Mets")
 	else:
 		print('\n')
 		print("That wasn't an option, but you should root for the New York Mets")

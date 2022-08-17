@@ -1,4 +1,4 @@
-# 100 Days of Projects
+# List of Projects
 
 **Project 1 - Shutdown or Restart**
  * When executed, this script will ask you to give an input to either shutdown or restart your machine
