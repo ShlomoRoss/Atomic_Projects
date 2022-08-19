@@ -20,7 +20,6 @@ pass_num = input("Would you like to include numbers in your password? [y/n] ")
 def which_pass():
 	if pass_sym.upper() == 'Y':
 		if pass_num.upper() == 'Y':
-			print("all")
 			all_pass()
 		else:
 			letters_sym_pass()
