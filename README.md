@@ -11,3 +11,6 @@
   
 **Project 4 - Rock, Paper, Scissors**
  * When executed, this project will open a rock, paper, scissors game to be played in the terminal
+
+**Project 5 - Password Generator**
+ * When executed, the script will ask user their password preferences and then generate a random password for them

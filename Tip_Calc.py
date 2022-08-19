@@ -23,8 +23,8 @@ total = (round(float(gratuity) + float(bill),2))
 split = (round(float(total) / float(people), 2))
 
 #Show the results
-print("Your tip is $"+ str(gratuity))
+print("""Your tip is $"+ str(gratuity))
 print("Your total bill is $"+ str(total))
 print("Each person owes $" + str(split) +'\n')
-print("Thank you for using the tip calculator. Enjoy the rest of your day!")
+print("Thank you for using the tip calculator. Enjoy the rest of your day!")""")
 time.sleep(10)
