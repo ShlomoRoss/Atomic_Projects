@@ -14,3 +14,7 @@
 
 **Project 5 - Password Generator**
  * When executed, the script will ask user their password preferences and then generate a random password
+
+**Project 6 - FizzBuzz**
+ * When executed, when the number is divisble by 3, the program will print Fizz. When the number is divisible by 5, the program will output Buzz. When the number is divisible by 3 and 5, the program will print FizzBuzz
+
